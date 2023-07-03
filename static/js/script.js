@@ -364,9 +364,9 @@ var LANGUAGES = {
     //     multiLangMutation();
     // }
     // NOTE the deployment on Github pages is stopped and deprecated. This tip is not useful anymore.
-    if (location.hostname.endsWith(".github.io")) {
-        window.location.href = "https://herta.ft2.ltd/";
-    }
+    // if (location.hostname.endsWith(".github.io")) {
+    //     window.location.href = "https://herta.ft2.ltd/";
+    // }
 
     // This function fetches data stored in a JSON file and displays it in a dialog box.
     function showCredits() {
