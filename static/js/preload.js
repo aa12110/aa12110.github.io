@@ -17,6 +17,7 @@ async function convertMp3FilesToBase64(dict) {
     return dict;
 }
 
+
 function loadAndEncode(url) {
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
