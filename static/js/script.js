@@ -384,7 +384,7 @@ const progress = [0, 1];
     function animateHerta() {
         let id = null;
         const random = Math.floor(Math.random() * 2) + 1;
-        const randomSpeed = Math.floor(Math.random() * 40) + 20;
+        const randomSpeed = Math.floor(Math.random() * 30) + 20;
         const elem = document.createElement("img");
         let RunSpeed = Math.floor(current_speed);
         elem.src = cacheStaticObj(`img/hertaa${random}.gif`);
@@ -395,7 +395,8 @@ const progress = [0, 1];
         document.body.appendChild(elem);
 
         if(current_random_type == "on"){
-            RunSpeed = Math.floor(randomSpeed);
+            const ReversalSpeed = 100 - Math.floor(randomSpeed);
+            RunSpeed = Math.floor(window.innerWidth/ReversalSpeed);
         }else{
             const ReversalSpeed = 100 - Math.floor(current_speed);
             RunSpeed = Math.floor(window.innerWidth/ReversalSpeed);
