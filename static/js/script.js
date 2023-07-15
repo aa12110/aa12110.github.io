@@ -586,11 +586,11 @@ const progress = [0, 1];
         </tr>
         <tr>
             <td style="width: 33.33%">
-                <label id="options-txt-vo-lang">Random speed</label>
+                <label id="options-txt-random_speed">Random speed</label>
             </td>
             <td style="width: 33.33%"></td>
             <td id="setting-item-table-td" style="width: 33.33%">
-                <select id="options-txt-random_speed" class="mdui-select" mdui-select='{"position": "bottom"}'>
+                <select id="random-speed-type" class="mdui-select" mdui-select='{"position": "bottom"}'>
                     <option value="off">OFF</option>
                     <option value="on">ON</option>
                 </select>
