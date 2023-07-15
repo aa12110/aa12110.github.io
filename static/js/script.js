@@ -603,7 +603,7 @@ const progress = [0, 1];
             <td style="width: 33.33%"></td>
             <td id="setting-item-table-td" style="width: 33.33%">
                 <label class="mdui-slider mdui-slider-discrete">
-                    <input type="range" step="1" min="0" max="95"/>
+                    <input type="range" step="1" min="0" max="95" id="speed-progress-bar"/>
                 </label>
             </td>
         </tr>
